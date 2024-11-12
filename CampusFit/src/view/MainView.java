@@ -4,10 +4,16 @@
  */
 package view;
 
+import view.panel.Login;
+
+
+
 /**
  *
  * @author Glen Rejeki Sitorus
  */
 public class MainView {
+    Login LoginFrame = new Login();
+    Logiz.setVisible(true);
     
 }
